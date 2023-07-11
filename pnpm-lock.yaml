@@ -17,6 +17,9 @@ dependencies:
   astro:
     specifier: ^2.8.0
     version: 2.8.0
+  zenn-content-css:
+    specifier: ^0.1.144
+    version: 0.1.144
 
 packages:
 
@@ -3815,6 +3818,10 @@ packages:
   /yocto-queue@1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
+    dev: false
+
+  /zenn-content-css@0.1.144:
+    resolution: {integrity: sha512-HTO7UlbAmj5uvNhbiUb/YvNe3etl+jCBkuIlpBOVgW6+szv7B/q3yjqEpV1n68aus+WYbkjqDKc62bJww/5mwA==}
     dev: false
 
   /zod@3.21.4:
