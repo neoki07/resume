@@ -205,8 +205,8 @@ vCenter Serverには、他部署の開発環境として提供している仮想
       - APIの正常系テストでは実際の環境に近いテスト用のDB（Dockerコンテナ）を使用し、異常系テストでは例外発生のためにモックDBを使用
       - リファクタリングへの耐性を高めるために、外部から観察可能な情報のみ（APIのレスポンスなど）を使って振る舞いを検証
     - コード自動生成による実装の効率化
-      - swagというGoパッケージを使い、GoコードとコメントからOpenAPIドキュメントを自動生成
-      - Orvalというnpmパッケージを使い、OpenAPIドキュメントからデータ取得用のReactフックを自動生成
+      - [swag](https://github.com/swaggo/swag)というGoパッケージを使い、GoコードとコメントからOpenAPIドキュメントを自動生成
+      - [Orval](https://github.com/anymaniax/orval)というnpmパッケージを使い、OpenAPIドキュメントからデータ取得用のReactフックを自動生成
 
 - [Myposts](https://github.com/ot07/myposts)
   - Markdown形式の記事を閲覧・投稿することができるプラットフォーム
