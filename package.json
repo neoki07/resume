@@ -7,13 +7,15 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "build:pdf": "md-to-pdf src/content/resume/resume.mdx --config-file pdf-config.cjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/rss": "^2.4.3",
     "@astrojs/sitemap": "^1.3.3",
     "astro": "^2.8.0",
+    "md-to-pdf": "^5.2.4",
     "zenn-content-css": "^0.1.144"
   }
 }
