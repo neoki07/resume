@@ -155,16 +155,29 @@ title: "Resume"
 
 製造業向け基幹システムの開発に従事。コーディング面での品質向上に強い関心を持ち、勉強会の開催やNotionでの情報共有や、コードレビュー文化の形成、さまざまな改善提案を積極的に行っている。これらの取り組みが実を結び、チームリーダーやメンバーから日々実装方法に関する相談を受けている。さらには、CTOから担当外の箇所で起きている不具合の話題でメンションされ、原因究明と解決をしたこともあり、技術的な信頼を得ることができている。
 
-- プロジェクト規模
-  - プロジェクト全体は50名程度、所属チームは5名程度
+- プロジェクト体制
+  - 開発に関わる人数: 約50名
+  - チーム体制：製造管理・債権債務などの業務カテゴリごとのチームに分かれて開発（リポジトリは共有）
+- 配属チーム
+  - 製造管理チーム
+    - 配属期間: 2022年5月 〜 2023年7月
+    - 人数: 4〜6名（時期により変動）
+  - 債権債務チーム
+    - 配属期間: 2023年8月 〜 現在
+    - 人数: 15〜20名（時期により変動）
+  - マスタ・共通基盤チーム
+    - 配属期間: 2023年8月 〜 2023年9月中旬（債権債務チームと掛け持ちだったが、すぐに債権債務系の機能開発に注力する方針となり、短期間での配属となった）
+    - 人数: 4名
 - プロジェクト詳細
   - ReactでのSPA開発
     - 主要技術スタック: JavaScript, React 17, Redux 4, Redux-Form 8, React-Router 5, Tailwind CSS 2, Reactstrap 8, Storybook 6
   - LaravelでのREST API開発
     - 主要技術スタック: PHP 7.4, Laravel 8, MySQL 8
   - 画面単位でタスクを割り振られ、画面実装とその画面で使用するAPI・データベースの設計・実装を担当
-  - 製造業務を担当する部署向けの機能開発（例：カレンダーライブラリを用いた製造スケジュール管理用の画面の開発）
-  - 顧客がシステムの運用・保守を行うため、開発方法のレクチャーを2人で実施（2023月4月から週1回のペースで実施中）
+  - 製造業務を担当する部署向けの機能の開発（例：カレンダーライブラリを用いた製造スケジュール管理用の画面の開発）
+  - 債権債務に関する各種帳票を出力する機能の開発
+  - 債権債務系の機能のインボイス対応のための改修
+  - 顧客がシステムの運用・保守を行うため、開発方法のレクチャーを2人で実施（2023年4月〜2023年10月に週1回のペースで実施）
 - その他
   - 勉強会の開催やNotionでの情報共有
   - これまでチームリーダーのみが行っていたコードレビューを、チームメンバーも実施することを提案し、コードレビュー文化を根付かせることに貢献
@@ -209,11 +222,8 @@ vCenter Serverには、他部署の開発環境として提供している仮想
       - [swag](https://github.com/swaggo/swag)というGoパッケージを使い、GoコードとコメントからOpenAPIドキュメントを自動生成
       - [Orval](https://github.com/anymaniax/orval)というnpmパッケージを使い、OpenAPIドキュメントからデータ取得用のReactフックを自動生成
 
-- [Myposts](https://myposts-dev.vercel.app/)
-  - Markdown形式の記事を閲覧・投稿することができるプラットフォーム
-  - 技術スタック
-    - フロントエンド: TypeScript, React, Next.js, Tailwind CSS, Prisma
-    - バックエンド: TypeScript, Next.js, tRPC, Prisma, PostgreSQL
+- [prettier-plugin-astro-organize-imports](https://github.com/ot07/prettier-plugin-astro-organize-imports)
+  - Astroファイルのimport文をフォーマットするためのPrettierプラグイン
 
 - [Music Transformer Playground](https://music-transformer-playground.vercel.app/)
   - Music Transformerと呼ばれるAIを使って、簡単にピアノの演奏を生成することができるプレイグラウンド
@@ -221,8 +231,11 @@ vCenter Serverには、他部署の開発環境として提供している仮想
     - フロントエンド: TypeScript, React, Vite, Rollup, Audio Worklet, Rust, WebAssembly
     - バックエンド: Python, FastAPI, Music Transformer, Docker, Cloud Run
 
-- [prettier-plugin-astro-organize-imports](https://github.com/ot07/prettier-plugin-astro-organize-imports)
-  - Astroファイルのimport文をフォーマットするためのPrettierプラグイン
+- [Myposts](https://myposts-dev.vercel.app/)
+  - Markdown形式の記事を閲覧・投稿することができるプラットフォーム
+  - 技術スタック
+    - フロントエンド: TypeScript, React, Next.js, Tailwind CSS, Prisma
+    - バックエンド: TypeScript, Next.js, tRPC, Prisma, PostgreSQL
 
 ### OSS活動
 
