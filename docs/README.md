@@ -28,9 +28,9 @@
 ## 各種アカウント
 
 <p>
-<a href="http://github.com/ot07" target="_blank"><img alt="Github" src="https://img.shields.io/badge/-ot07-181717.svg?style=flat-square&logo=Github&logoColor=white" /></a>
-<a href="https://zenn.dev/ot07" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ot07-3EA8FF.svg?style=flat-square&logo=Zenn&logoColor=white" /></a>
-<a href="https://qiita.com/ot07" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/ot07-55C500?style=flat-square&logo=qiita&logoColor=fff" /></a>
+  <a href="http://github.com/ot07" target="_blank"><img alt="Github" src="https://img.shields.io/badge/-ot07-181717.svg?style=flat-square&logo=Github&logoColor=white" /></a>
+  <a href="https://zenn.dev/ot07" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ot07-3EA8FF.svg?style=flat-square&logo=Zenn&logoColor=white" /></a>
+  <a href="https://qiita.com/ot07" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/ot07-55C500?style=flat-square&logo=qiita&logoColor=fff" /></a>
 </p>
 
 ---
