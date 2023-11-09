@@ -25,12 +25,14 @@
 
 ---
 
-## 各種アカウント
+## 各種リンク
 
 <p>
   <a href="http://github.com/ot07" target="_blank"><img alt="Github" src="https://img.shields.io/badge/-ot07-181717.svg?style=flat-square&logo=Github&logoColor=white" /></a>
   <a href="https://zenn.dev/ot07" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ot07-3EA8FF.svg?style=flat-square&logo=Zenn&logoColor=white" /></a>
   <a href="https://qiita.com/ot07" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/ot07-55C500?style=flat-square&logo=qiita&logoColor=fff" /></a>
+  <a href="https://portfolio.ot07.me/" target="_blank"><img src="https://img.shields.io/badge/-portfolio-EF2D5E.svg?logo=&style=flat-square"></a>
+  <a href="https://techblog.ot07.me/" target="_blank"><img src="https://img.shields.io/badge/-techblog-66459B.svg?logo=&style=flat-square"></a>
 </p>
 
 ---
@@ -147,17 +149,15 @@ vCenter Serverには、他部署の開発環境として提供している仮想
     - フロントエンド：TypeScript, React, Next.js, Jest, Storybook, Tanstack Query, React Hook Form, Zod, Mantine, Vercel
     - バックエンド：Go, Fiber, Swagger, PostgreSQL, sqlc, swag, Docker, AWS App Runner, Amazon RDS
   - 大切にしていること
-    - ドメイン駆動設計や[Bulletproof React](https://github.com/alan2207/bulletproof-react)などのアーキテクチャを参考にした関心事の分離
+    - ドメイン駆動設計や[Bulletproof React](https://github.com/alan2207/bulletproof-react)などを参考にした関心事の分離
     - 効果の高いテストコードの実装
       - APIの正常系テストでは実際の環境に近いテスト用のDB（Dockerコンテナ）を使用し、異常系テストでは例外発生のためにモックDBを使用
       - リファクタリングへの耐性を高めるために、外部から観察可能な情報のみ（APIのレスポンスなど）を使って振る舞いを検証
     - コード自動生成による実装の効率化
       - [swag](https://github.com/swaggo/swag)というGoパッケージを使い、GoコードとコメントからOpenAPIドキュメントを自動生成
       - [Orval](https://github.com/anymaniax/orval)というnpmパッケージを使い、OpenAPIドキュメントから、APIとやり取りするReactフックを自動生成
-
 - [**prettier-plugin-astro-organize-imports**](https://github.com/ot07/prettier-plugin-astro-organize-imports)
   - Astroファイルのimport文をフォーマットするためのPrettierプラグイン
-
 - [**Music Transformer Playground**](https://music-transformer-playground.vercel.app/)
   - Music Transformerと呼ばれるAIを使って、簡単にピアノの演奏を生成できるプレイグラウンド
   - 技術スタック
@@ -168,10 +168,8 @@ vCenter Serverには、他部署の開発環境として提供している仮想
 
 - **Prettier**
   - TypeScriptコードのフォーマットに関するバグ修正（[#14830](https://github.com/prettier/prettier/pull/14830)）
-
 - **Mantine**
   - UIコンポーネントのスタイリングに関するバグ修正（[#4281](https://github.com/mantinedev/mantine/pull/4281)）
-
 - **その他（タイポ修正など）**
   - [mantinedev/mantine#4290](https://github.com/mantinedev/mantine/pull/4290)
   - [withastro/docs#3308](https://github.com/withastro/docs/pull/3308)
