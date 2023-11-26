@@ -192,7 +192,7 @@ vCenter Serverには、他部署の開発環境として提供している仮想
 - **友人と輪読会を実施**
   - [Clean Architecture 達人に学ぶソフトウェアの構造と設計](https://asciidwango.jp/post/176293765750/clean-architecture)
   - [単体テストの考え方/使い方](https://book.mynavi.jp/ec/products/detail/id=134252)
-- **友人とISUCON13への参加に向けて勉強中（2023年8月下旬〜）**
+- **友人とISUCON13に参加**
 
 ---
 
