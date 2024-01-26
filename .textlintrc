@@ -11,12 +11,7 @@
       },
       "max-kanji-continuous-len": false,
       "arabic-kanji-numbers": true,
-      "no-mix-dearu-desumasu": {
-        "preferInHeader": "",
-        "preferInBody": "ですます",
-        "preferInList": "である",
-        "strict": false
-      },
+      "no-mix-dearu-desumasu": false,
       "ja-no-mixed-period": {
         "periodMark": "。",
         "severity": "warning"
