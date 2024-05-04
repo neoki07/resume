@@ -174,11 +174,15 @@ vCenter Serverには、他部署の開発環境として提供している仮想
   - TypeScriptコードのフォーマットに関するバグ修正（[#14830](https://github.com/prettier/prettier/pull/14830)）
 - **Mantine**
   - UIコンポーネントのスタイリングに関するバグ修正（[#4281](https://github.com/mantinedev/mantine/pull/4281)）
+- **Biome**
+  - CSSの未知の単位を検出するためのルールの追加（[#2535](https://github.com/biomejs/biome/pull/2535)）
+  - CSSの未知の関数を検出するためのルールの追加（[#2570](https://github.com/biomejs/biome/pull/2570)）
 - **その他（タイポ修正など）**
   - [mantinedev/mantine#4290](https://github.com/mantinedev/mantine/pull/4290)
   - [withastro/docs#3308](https://github.com/withastro/docs/pull/3308)
   - [withastro/docs#3310](https://github.com/withastro/docs/pull/3310)
   - [withastro/docs#3321](https://github.com/withastro/docs/pull/3321)
+  - [microsoft/vscode-loc#1556](https://github.com/microsoft/vscode-loc/issues/1556)
 
 ### 社内での情報共有活動
 
