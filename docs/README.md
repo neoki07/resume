@@ -28,11 +28,11 @@
 ## 各種リンク
 
 <p>
-  <a href="http://github.com/ot07" target="_blank"><img alt="Github" src="https://img.shields.io/badge/-ot07-181717.svg?style=flat-square&logo=Github&logoColor=white" /></a>
-  <a href="https://zenn.dev/ot07" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ot07-3EA8FF.svg?style=flat-square&logo=Zenn&logoColor=white" /></a>
-  <a href="https://qiita.com/ot07" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/ot07-55C500?style=flat-square&logo=qiita&logoColor=fff" /></a>
-  <a href="https://portfolio.ot07.me/" target="_blank"><img src="https://img.shields.io/badge/-portfolio-EF2D5E.svg?logo=&style=flat-square"></a>
-  <a href="https://techblog.ot07.me/" target="_blank"><img src="https://img.shields.io/badge/-techblog-66459B.svg?logo=&style=flat-square"></a>
+  <a href="http://github.com/ne-oki" target="_blank"><img alt="Github" src="https://img.shields.io/badge/neoki-181717.svg?style=flat-square&logo=Github&logoColor=white" /></a>
+  <a href="https://zenn.dev/ot07" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/neoki-3EA8FF.svg?style=flat-square&logo=Zenn&logoColor=white" /></a>
+  <a href="https://qiita.com/ne-oki" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/neoki-55C500?style=flat-square&logo=qiita&logoColor=fff" /></a>
+  <a href="https://portfolio.neoki.me/" target="_blank"><img src="https://img.shields.io/badge/-portfolio-EF2D5E.svg?logo=&style=flat-square"></a>
+  <a href="https://techblog.neoki.me/" target="_blank"><img src="https://img.shields.io/badge/-techblog-66459B.svg?logo=&style=flat-square"></a>
 </p>
 
 ---
@@ -160,7 +160,7 @@ vCenter Serverには、他部署の開発環境として提供している仮想
     - コード自動生成による実装の効率化
       - [swag](https://github.com/swaggo/swag)というGoパッケージを使い、GoコードとコメントからOpenAPIドキュメントを自動生成
       - [Orval](https://github.com/anymaniax/orval)というnpmパッケージを使い、OpenAPIドキュメントから、APIとやり取りするReactフックを自動生成
-- [**prettier-plugin-astro-organize-imports**](https://github.com/ot07/prettier-plugin-astro-organize-imports)
+- [**prettier-plugin-astro-organize-imports**](https://github.com/ne-oki/prettier-plugin-astro-organize-imports)
   - Astroファイルのimport文をフォーマットするためのPrettierプラグイン
 - [**Music Transformer Playground**](https://music-transformer-playground.vercel.app/)
   - Music Transformerと呼ばれるAIを使って、簡単にピアノの演奏を生成できるプレイグラウンド
